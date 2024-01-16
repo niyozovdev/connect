@@ -1,0 +1,262 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;800;900&display=swap);
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.color-bir{
+      background-color: #FFF2E5 !important;
+      border-radius: 0.7rem;
+}
+.color-bir:hover{
+    background-color: #e9e3df !important;
+    cursor: pointer;
+}
+.color-ikki{
+    background-color: #edf0f3 !important;
+    border-radius: 0.7rem;
+}
+.color-ikki:hover{
+    cursor: pointer;
+    background-color:#d9dcdf !important;
+}
+.color-uch{
+    background-color: #ddedfa !important;
+    border-radius: 0.7rem;
+}
+.color-uch:hover{
+    cursor: pointer;
+    background-color:#d9dcdf !important;
+}
+
+/* Navbar */
+.navbar-nav > .btn{
+    width: 10rem;
+    letter-spacing:0.1rem;
+}
+
+.navbar{
+    z-index: 99;
+}
+/* /Navbar */
+
+.home{
+    background-color: #F2F4F7;
+    padding:7rem 0 8rem;
+}
+
+.container__better{
+    padding: 7rem 3rem 8rem;
+}
+
+.container__better > .flex-lg-row{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} 
+
+.data-bg{
+    background-color: #F0F5F9;
+}
+
+.data-row__bir{
+    padding: 6.25rem 3.125rem 3.125rem;
+}
+
+.container-s{
+    width: 55rem;
+    margin-top: 6.25rem;
+}
+
+.prasmotr{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 6.25rem;
+}
+.result__h2{
+    padding: 0 8.75rem 0.8rem !important;
+}
+
+.container-icon{
+    width: 5rem;
+}
+
+.inner{
+    padding: 3rem 0;
+}
+
+
+.stories > .container{
+    background-color: #F2F4F7;
+}
+
+.padding{
+    padding: 3rem;
+}
+
+
+.rasm-icon{
+    width: 4rem;
+    height: 2.7rem;
+}
+
+.rev-image{
+    width: 3.9rem;
+    height: 3.9rem;
+}
+.radius{
+    border-radius: 50%;
+}
+
+.simple{
+    padding-top: 6.25rem;
+}
+
+.table-left{
+    padding: 3.25rem;
+}
+
+.faq-inner{
+    padding: 6.25rem 0;
+}
+
+.accordion{
+    margin-top: 6.25rem;
+}
+
+.faqs > .container{
+    background-color:#F2F4F7 ;
+}
+
+.col-md-6 > .card{
+    background-color: #F2F4F7 !important;
+}
+
+.col-md-6:hover > .card{
+    background-color: #f3eaea !important;
+    cursor: pointer;
+}
+
+.text-secondary{
+    color: #21BF73 !important;
+}
+
+.bg-secondary{
+    background-color: #21BF73 !important;
+}
+.btn-outline-secondary:hover{
+    background-color: #21BF73 !important;
+}
+
+.trial{
+    margin-top: 6.25rem;
+    margin-bottom: 5rem;
+}
+
+.input-group{
+    width: 35rem;
+}
+
+.footer{
+    background-color: #F2F4F7;
+}
+
+.footer-row{
+    padding: 1.5rem 0;
+    display: flex;
+    align-items: center;
+}
+
+.img-moslash{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.hover-awesome{
+    transition: opacity 0.2s ease-in-out !important;
+}
+.hover-awesome:hover{
+    opacity: 1 !important;
+}
+
+
+
+@media only screen and (max-width:992px){
+    .data-row__bir{
+        padding: 1rem!important;
+    }
+
+
+}  
+
+@media only screen and (max-width:768px){
+    .container__better{
+        padding:1rem 0 0 2rem !important;
+        width: 100% !important;
+    }
+
+    .data-bg{
+        padding: 0 !important;
+    }
+
+    .container-s{
+        width: 100% !important;
+        margin-top: 4rem;
+    }
+    .result__h2{
+        padding: 0.7rem 2rem 3rem !important;
+    }
+
+    .faq-inner{
+        padding: 5rem 0 !important;
+    }
+
+    .accordion{
+        margin-top:5rem;
+    }
+
+    .footer-row{
+        padding: 0;
+    }
+
+    .trial{
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+    }
+
+    .container > .footer-row{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .simple{
+        padding-top:5rem;
+    }
+    .padding{
+        padding: 1.9rem;
+    }
+}
+
+@media only screen and (max-width:404px){
+    .d-sm-flex{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 9rem;
+    }
+    .footer-row > .pastga{
+        padding-top: .8rem;
+    }
+}
+
+
+
